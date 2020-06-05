@@ -7,6 +7,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- 1. Load the webchat.js bundle via a script tag -->
+  <script src="https://github.com/Cognigy/WebchatWidget/releases/download/v2.18.2/webchat.js"></script>
+
+  <!-- Initialize the Webchat towards a Cogngiy Endpoint via initWebchat() -->
+  <script>
+    initWebchat(
+      "https://endpoint-demo.cognigy.ai/dca511ac45a435c291b994392715d60aa294ab7feb9cbc4fd4386082b0b62fc6"
+    );
+  </script>
 </head>
 <body>
 <div class="container">
